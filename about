@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosna B. Birra | About</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<div class="page-wrapper">
+
+    <nav class="navbar">
+        <div class="nav-brand">Sosna B. Birra</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="research.html">Research</a>
+            <a href="experience.html">Experience</a>
+            <a href="publications.html">Publications</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-icons">
+            <a href="mailto:sosna.birra@bison.howard.edu"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <h1 class="section-title">About</h1>
+        <p class="section-subtitle">Mathematical modeling · Biostatistics · Public health</p>
+
+        <div class="card">
+            <p class="card-body">
+                I am a Ph.D. student in the Department of Mathematics at Howard University with a strong passion
+                for applying quantitative techniques to address public health challenges in under-resourced
+                communities. My research focuses on mathematical models for infectious diseases, particularly HIV
+                drug resistance dynamics. :contentReference[oaicite:2]{index=2}
+            </p>
+        </div>
+
+        <div class="card">
+            <p class="card-body">
+                Before starting my Ph.D., I completed a Master of Science in Biostatistics and a Bachelor of
+                Science in Statistics at Addis Ababa University. During this time, I developed experience in
+                applied statistics, research design, and the use of statistical software for real-world health
+                and demographic datasets. :contentReference[oaicite:3]{index=3}
+            </p>
+        </div>
+
+        <div class="card">
+            <p class="card-body">
+                I enjoy working at the intersection of mathematics, statistics, and public health—building models,
+                analyzing data, and collaborating with clinicians and researchers to generate insights that can
+                inform policy and improve patient outcomes.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        © <span id="year"></span> Sosna B. Birra
+    </footer>
+</div>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
