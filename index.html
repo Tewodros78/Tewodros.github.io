@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosna B. Birra | Home</title>
+    <link rel="stylesheet" href="style.css?v=5">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+<div class="page-wrapper">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-brand">Sosna B. Birra</div>
+
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="research.html">Research</a>
+            <a href="experience.html">Experience</a>
+            <a href="publications.html">Publications</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="nav-icons">
+    <a href="mailto:sosna.birra@bison.howard.edu"><i class="fa-solid fa-envelope"></i></a>
+
+    <a href="https://www.linkedin.com/in/sosnabirra" target="_blank" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+</div>
+
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h1 class="hero-name">Sosna B. Birra</h1>
+            <p class="hero-title">Ph.D. Student in Mathematics · Howard University</p>
+
+            <p class="hero-tagline">
+                I am a Ph.D. student in the Department of Mathematics at Howard University with a strong 
+                interest in applying quantitative and computational methods to address public health 
+                challenges in under-resourced communities. My research focuses on mathematical and 
+                statistical models of infectious diseases—with a special emphasis on HIV drug resistance 
+                dynamics and treatment outcomes.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="cv.html" class="btn btn-primary">View CV</a>
+                <a href="research.html" class="btn btn-outline">Explore Research</a>
+                <a href="contact.html" class="btn btn-outline">Contact</a>
+            </div>
+        </section>
+
+        <!-- ABOUT ME (merged into home page) -->
+        <section style="margin-top: 50px;">
+            <h2 class="section-title">About Me</h2>
+
+            <p class="section-subtitle">
+                My academic interests lie at the intersection of mathematics, epidemiology, and public health. 
+                I am driven by the potential of mathematical modeling to illuminate disease dynamics, support 
+                clinical decision-making, and improve health equity.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        © <span id="year"></span> Sosna B. Birra
+    </footer>
+
+</div>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
