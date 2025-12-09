@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosna B. Birra | Research</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<div class="page-wrapper">
+
+    <nav class="navbar">
+        <div class="nav-brand">Sosna B. Birra</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html" class="active">Research</a>
+            <a href="experience.html">Experience</a>
+            <a href="publications.html">Publications</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-icons">
+            <a href="mailto:sosna.birra@bison.howard.edu"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <h1 class="section-title">Research</h1>
+        <p class="section-subtitle">
+            Mathematical and statistical modeling of infectious diseases, with a focus on HIV.
+        </p>
+
+        <div class="card">
+            <h2 class="card-title">HIV Drug Resistance Dynamics</h2>
+            <p class="card-body">
+               My research focuses on developing and analyzing mathematical models of HIV viral dynamics in the context of prevention strategies, particularly pre-exposure prophylaxis (PrEP). I am broadly interested in how drug action influences viral establishment, early infection dynamics, and the likelihood of preventing HIV acquisition.
+By integrating PK/PD processes with HIV transmission and early viral dynamics, my work aims to evaluate the effectiveness of PrEP regimens, quantify the probability of infection under different dosing strategies, and explore how pharmacological factors can improve prevention outcomes.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">Biostatistical Applications in Maternal and Child Health</h2>
+            <p class="card-body">
+                My previous work in biostatistics includes modeling teenage fertility trends and identifying
+                predictors of hospital stay length among preterm infants in Ethiopia. These projects involved
+                regression modeling, survival and competing risk analysis, and careful interpretation of results
+                for clinical and policy audiences.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2 class="card-title">Methods and Tools</h2>
+            <ul class="bullet-list card-body">
+                <li>Differential equation models for infectious diseases</li>
+                <li>Regression and survival analysis</li>
+                <li>Statistical software: R, STATA, SPSS, Excel</li>
+                <li>Computational tools: Python, MATLAB, LaTeX </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        © <span id="year"></span> Sosna B. Birra
+    </footer>
+</div>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
